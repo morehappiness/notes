@@ -1,0 +1,11 @@
+echo "# notes" >> README.md
+// init a local git
+git init
+// add one to local git 
+git add README.md
+// commit the adds
+git commit -m "first commit"
+// add remote repo as name 'origin'
+git remote add origin https://github.com/morehappiness/notes.git
+// push the 'origin' to server
+git push -u origin master
